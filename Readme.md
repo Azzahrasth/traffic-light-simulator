@@ -8,14 +8,14 @@ A clean and robust implementation of a traffic light system built with **React**
 
 This project successfully implements all requirements, including the use of a pure FSM model for reliable state management.
 
-| Feature | Description | Evaluation Criteria Met |
-| :--- | :--- | :--- |
-| **Pure FSM Implementation** | State logic is driven by defined states (`Red`, `Green`, `Yellow`) and specific, unidirectional transitions. This ensures **Scalability** and **FSM Design**. | FSM Design, Scalability |
-| **Strict Light Cycle** | Implements the required sequence: **Red (5s) → Green (4s) → Yellow (2s) → Red**. | Correctness |
-| **Pause & Resume** | The timer and state are completely frozen when paused and precisely resume from the exact remaining time when started. | Timer Management |
-| **Reset Functionality** | Instantly returns the system to the initial `Red` state and stops all active timers/cycles. | Timer Management |
-| **Separation of Concerns** | The core FSM logic (state transitions, timer management) is abstracted away from the UI components, ensuring the UI is a pure representation of the state. | Separation of Concerns, Code Clarity |
-| **Edge Case Handling (Optional/Bonus)** | The FSM model inherently handles rapid pause/start without logic corruption, ensuring state integrity. | Code Clarity, FSM Design |
+| Feature | Description |
+| :--- | :--- |
+| **Pure FSM Implementation** | State logic is driven by defined states (`Red`, `Green`, `Yellow`) and specific, unidirectional transitions. This ensures **Scalability** and **FSM Design**. |
+| **Strict Light Cycle** | Implements the required sequence: **Red (5s) → Green (4s) → Yellow (2s) → Red**. |
+| **Pause & Resume** | The timer and state are completely frozen when paused and precisely resume from the exact remaining time when started. |
+| **Reset Functionality** | Instantly returns the system to the initial `Red` state and stops all active timers/cycles. |
+| **Separation of Concerns** | The core FSM logic (state transitions, timer management) is abstracted away from the UI components, ensuring the UI is a pure representation of the state. |
+| **Edge Case Handling (Optional/Bonus)** | The FSM model inherently handles rapid pause/start without logic corruption, ensuring state integrity. |
 
 ---
 
