@@ -1,16 +1,14 @@
 # 🚦 Traffic Light Simulation using Finite State Machine (FSM)
 
-A clean and robust implementation of a traffic light system built with **React**, demonstrating proper timer management, strict **separation of concerns**, and adhering to the **Finite State Machine (FSM)** model for predictable state transitions.
+A clean and robust implementation of a traffic light system built with React, demonstrating correct FSM modeling, precise timer handling using requestAnimationFrame, and strict separation of core logic and UI.
 
 ---
 
 ## ✨ Key Features & Technical Highlights
 
-This project successfully implements all requirements, including the use of a pure FSM model for reliable state management.
-
 | Feature | Description |
 | :--- | :--- |
-| **Pure FSM Implementation** | State logic is driven by defined states (`Red`, `Green`, `Yellow`) and specific, unidirectional transitions. This ensures **Scalability** and **FSM Design**. |
+| **Pure FSM Implementation** | State logic is driven by defined states (`Red`, `Green`, `Yellow`) Implemented using a pure useReducer reducer for predictable behavior. |
 | **Strict Light Cycle** | Implements the required sequence: **Red (5s) → Green (4s) → Yellow (2s) → Red**. |
 | **Pause & Resume** | The timer and state are completely frozen when paused and precisely resume from the exact remaining time when started. |
 | **Reset Functionality** | Instantly returns the system to the initial `Red` state and stops all active timers/cycles. |
