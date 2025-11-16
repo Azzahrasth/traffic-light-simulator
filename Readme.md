@@ -20,7 +20,8 @@ A clean and robust implementation of a traffic light system built with React, de
 ## 🛠️ Project Structure & Technology Stack
 
 * **Framework:** React (Functional Components with Hooks)
-* **State Management:** Local State (FSM implemented via custom hooks/logic).
+* **State Management:** Pure FSM implemented with useReducer inside a custom hook
+lebih akurat & teknis.
 * **Timer Management:**: High-precision delta-time loop using requestAnimationFrame, ensuring accurate countdown even when the browser is throttled or tab is inactive.
 
 ---
