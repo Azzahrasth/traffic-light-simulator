@@ -23,7 +23,7 @@ This project successfully implements all requirements, including the use of a pu
 
 * **Framework:** React (Functional Components with Hooks)
 * **State Management:** Local State (FSM implemented via custom hooks/logic).
-* **Timer Management:** `setInterval`/`setTimeout` managed carefully to prevent memory leaks and ensure precise pausing/resuming.
+* **Timer Management:**: High-precision delta-time loop using requestAnimationFrame, ensuring accurate countdown even when the browser is throttled or tab is inactive.
 
 ---
 
